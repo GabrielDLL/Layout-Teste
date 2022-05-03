@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navegacao{
+    background-color: #303956;
+    padding-left: 60px;
+    height: 62px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#logo{
+    float: left;
+}
+
+#logo img{
+    float: left;
+    width: 35px;
+    padding: 5px;
+    background: #5567ff;
+    border-radius: 10%;
+    margin-top: 8px;
+}
+
+#logo p{
+    float: left;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+
+#left-side{
+    float: left;
+}
+
+.group-icon{
+    margin: 0;
+    padding: 0;
+    opacity: 80%;
+}
+
+.group-icon img{
+    margin: 0;
+    padding: 0;
+    width: 30px;
+}
+
+#left-side ul{
+    list-style-type: none;
+}
+
+
+#left-side li{
+    padding: 0 0.5em;
+    float: left;
+}
+
+#left-side a{
+    text-decoration: none;
+    line-height: 2em;
+    color: white;
+    opacity: 70%;
+}
+
+#left-side a:hover{
+    opacity: 100%;
+}
+
+#right-side{
+    float: right;
+}
+
+#right-side ul{
+    list-style-type: none;
+}
+
+
+#right-side li{
+    padding: 0 0.5em;
+    float: right;
+}
+
+#right-side a{
+    text-decoration: none;
+    line-height: 2em;
+    color: white;
+}
+
+
+#right-side .login{
+    color: white;
+    background-color: #303956;
+    border: 1px solid white;
+    border-radius: 5%;
+    opacity: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+#right-side .login:hover{
+    color: blue;
+    background-color: white;
+}
+
+.padlock-icon img{
+    opacity: 70%;
+    width: 26px;
+}
+
+.padlock-icon img:hover{
+    opacity: 100%;
+}
+
+.us-icon img{
+    width: 30px;
+}
