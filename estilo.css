@@ -117,3 +117,60 @@ body{
 .us-icon img{
     width: 30px;
 }
+
+footer{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#ruler{
+    opacity: 15%;
+}
+
+#footer-container{
+    margin-top: 20px;
+    margin-left: 23%;
+}
+
+#footer-logo{
+    float: left;
+}
+
+#footer-logo img{
+    float: left;
+    width: 35px;
+}
+
+#footer-logo p{
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(90, 90, 90);
+    margin: 0;
+    margin-left: 13px;
+}
+
+#footer-text{
+    float: left;
+    font-size: 12px;
+    font-weight: lighter;
+    color: grey;
+}
+
+#policies{
+    margin-top:70px;
+    margin-bottom:60px;
+}
+
+#policies a{
+    color: grey;
+    font-size: 13.5px;
+}
+
+#policies p{
+    color: grey;
+    font-size: 12px;
+}
+
