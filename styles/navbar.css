@@ -1,0 +1,109 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #303956;
+    height: 66px;
+}
+
+.navbar-holder{
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin: 0px 20px;
+    height: 66px;
+}
+
+.navbar-slider{
+    width: 20px;
+    height: 18px;
+    opacity: 60%;
+}
+
+.navbar-logo-area{
+    display: flex;
+    align-items: center;
+    padding-right: 26px;
+    margin-left: 10px;
+    height: 66px;
+}
+
+.navbar-logo-image{
+    width: 32px;
+    height: 32px;
+    background-color: #5567FF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar-logo-name{
+    margin-left: 10px;
+    color: white;
+    font-size:25px;
+}
+
+.navbar-menu-area{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    /* background-color: red; */
+}
+
+.navbar-menu-area li{
+    padding-right: 18px;
+}
+
+.navbar-menu-area li a{
+    color: white;
+    font-weight: bold;
+    opacity: 80%;
+    text-decoration: none;
+}
+
+.navbar-menu-area li a:hover{
+    opacity: 100%;
+}
+
+.navbar-icon-size{
+    width: 25px;
+    height: 25px;
+}
+
+.navbar-account-area{
+    display: flex;
+    height: 66px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar-account-area li{
+    padding-left: 18px;
+}
+
+.navbar-sign-button{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+.navbar-sign-button:hover{
+    color:blue;
+    background-color: white;
+}
+
+.navbar-icon-padlock{
+    opacity: 80%;
+}
+
+.navbar-icon-padlock:hover{
+    opacity: 100%;
+}

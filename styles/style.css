@@ -1,0 +1,17 @@
+html, body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F5F7FA;
+}
+/* 1140px of width */
+/*#DFE2E6*/
+/*  footer no conteudo seria uma má prática?
+    Pois se feito na class conteudo, posso utilizar 
+    a mesma coluna central*/
+
+.container{
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 62px 84vh 250px; */
+}

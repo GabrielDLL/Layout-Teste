@@ -1,0 +1,148 @@
+.design{
+    display: flex;
+    justify-content: center;
+    background-color: #F5F7FA;
+    border-bottom: 2px solid #E9EDF2;
+    height: 366px;
+}
+
+.design-holder{
+    width: 1140px;
+    margin: 0 auto;
+    height: 303px;
+    margin: 30px 0px 31px 0px;
+    /* background-color: navajowhite; */
+}
+
+.design-holder-title{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    padding-top:6px;
+    padding-right: 10px;
+    margin: 0;
+    margin-left: 25px;
+    color:#303956;
+}
+
+.design-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 263px;
+    margin: 15px 13px 0px 13px;
+    /* background-color: red; */
+}
+
+.design-course-item{
+    margin: 0px 13px;
+    border-radius: 10px;
+    width: 248px;
+    height: 242px;
+    background-color: white;
+    border: 2px solid #DFE2E6;
+}
+
+.design-course-image{
+    margin-top: 1px;
+    height: 129px;
+    border-radius: 10px;
+}
+
+.dci-sketch{
+    background-color: #342C8E;
+}
+.dci-flinto{
+    background-color: #C4759A;
+}
+.dci-photoshop{
+    background-color: #1E94EC;
+}
+.dci-figma{
+    background-color: #25ABAE;
+}
+
+.design-course-info-area-container{
+    padding: 10px 12px;
+    border-bottom: 1px solid #DFE2E6;
+}
+
+.design-course-info-area{
+    display: flex;
+
+    width: 233px;
+}
+
+.design-course-text-area{
+    /* background-color: green; */
+    width: 185px;
+    margin-left: 10px;
+}
+
+.design-course-header-text{
+    margin: 0;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.design-course-autor{
+    margin: 0;
+    margin-top:4px;
+    font-family: "Roboto";
+    opacity: 70%;
+    font-size: 13px;
+}
+
+.design-heart-icon{
+    width: 23px;
+    height: 23px;
+    opacity: 30%;
+}
+
+.design-stars-container{
+    display: flex;
+    margin: 0 12px;
+    margin-top: 4px;
+}
+
+.star{
+    padding-right: 4px;
+    width: 12px;
+    height: 12px;
+}
+
+.star-ratio{
+    font-family: "Roboto";
+    opacity: 60%;
+    margin: 0;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.design-course-video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 37px;
+    border-radius: 5px;
+    margin: 0;
+    opacity: 70%;
+    margin: 0px 24px;
+}
+
+.design-course-video-info p{
+    font-size: 13px;
+    padding-left: 5px;
+    font-family: "Roboto";
+}
+
+.design-video-icon{
+    
+    display: flex;
+    align-items: center;
+}
+
+.video-info-icon{
+    width: 12px;
+    height: 12px;
+}
