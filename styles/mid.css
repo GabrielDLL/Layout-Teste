@@ -1,0 +1,61 @@
+/*Seria possivel fazer em grid*/
+
+
+.mid-header{
+    /* background-color: tomato; */
+    border-bottom: 2px solid #E9EDF2;
+}
+
+.mid-header-content{
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+    padding: 0px 24px;
+    /* background-color: lightcoral; */
+    height:95px;
+}
+
+.mid-itens{
+    height:95px;
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.mid-item{
+    width: 380px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.round-profile{
+    height: 64px;
+    width: 64px;
+    margin-left: 10px;
+    background-color: #5567FF;
+    border-radius: 100%;
+}
+
+.mid-item-header{
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #303956;
+    margin: 0;
+}
+
+.mid-item-description{
+    font-family: "Roboto";
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+    margin-top:8px;
+}
+
+.mid-item-text-area{
+    margin-left: 15px;
+}

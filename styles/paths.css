@@ -1,0 +1,101 @@
+.paths{
+    display: flex;
+    justify-content: center;
+    background-color: #F5F7FA;
+    border-bottom: 2px solid #E9EDF2;
+    height: 268px;
+}
+
+.paths-holder{
+    width: 1140px;
+    margin: 0 auto;
+    height: 196px;
+    margin: 30px 0px 42px 0px;
+    /* background-color: navajowhite; */
+}
+
+.paths-holder-title{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    padding-top:6px;
+    padding-right: 10px;
+    margin: 0;
+    margin-left: 25px;
+    color:#303956;
+}
+
+.paths-content{
+    display: grid;
+    height: 160px;
+    margin-top:14px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 79px 79px;
+}
+
+.paths-content-course{
+    margin: 0px 12px;
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+    height: 62px;
+    border-radius: 8px;
+    border: 2px solid #DFE2E6;
+    background-color: white;
+}
+
+.course-info-image{
+    width: 40px;
+    height: 40px;
+    margin: 10px 12px;
+    border-radius: 5px;
+}
+
+.cii-react{
+    background-color: #218DDF;
+}
+.cii-devops{
+    background-color: #C4CAFF;
+}
+.cii-redis{
+    background-color: #8D3F73;
+}
+.cii-mailchimp{
+    background-color: #BEB4D3;
+}
+.cii-swift{
+    background-color: #BA597D;
+}
+.cii-wordpress{
+    background-color: #1F7BD2;
+}
+
+.course-info-text-area{
+    height: 40px;
+    width: 244px;
+    /* background-color: red; */
+}
+
+.course-info-header-text{
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: #303956;
+}
+
+.course-info-description{
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 13px;
+    color: black;
+    opacity: 70%;
+}
+
+.heart-icon{
+    width: 25px;
+    opacity: 30%;
+    margin-right: 15px;
+}
