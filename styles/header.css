@@ -1,17 +1,21 @@
 .main-header{
-    display:flex;
-    justify-content: space-around;
+    display: flex;
     background-image: url("../images/header-background.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 519px;
+    height: 600px;
     color:whitesmoke;
     font-family: "Roboto";
-    
 }
 
-.main-header-content-area{
-    width: 1140px;
+.main-header .main-header-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main-header .main-header-container .main-header-content-area {
+    display: flex;
+    flex-direction: column;
 }
 
 .main-header h2{

@@ -10,7 +10,9 @@ html, body{
     Pois se feito na class conteudo, posso utilizar 
     a mesma coluna central*/
 
-.container{
+.container-2 {
+    /* max-width: 1300;
+    margin: 0 auto; */
     /* display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 62px 84vh 250px; */
