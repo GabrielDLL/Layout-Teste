@@ -1,36 +1,32 @@
-.navbar{
+.navbar {
     position: fixed;
-    top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 999;
     background-color: #303956;
     height: 66px;
 }
 
-.navbar-holder{
-    font-family: "Roboto";
+.navbar .navbar-holder {
     display: flex;
     align-items: center;
-    margin: 0 auto;
     margin: 0px 20px;
     height: 66px;
 }
 
-.navbar-slider{
+.navbar .navbar-holder .navbar-slider {
     width: 20px;
     height: 18px;
     opacity: 60%;
 }
 
-.navbar-logo-area{
+.navbar .navbar-holder .navbar-logo-area {
     display: flex;
     align-items: center;
     padding-right: 26px;
     margin-left: 10px;
-    height: 66px;
 }
 
-.navbar-logo-image{
+.navbar .navbar-holder .navbar-logo-area img {
     width: 32px;
     height: 32px;
     background-color: #5567FF;
@@ -38,72 +34,67 @@
     border-radius: 5px;
 }
 
-.navbar-logo-name{
+.navbar .navbar-holder .navbar-logo-area h1 {
     margin-left: 10px;
     color: white;
     font-size:25px;
 }
 
-.navbar-menu-area{
+.navbar .navbar-holder .navbar-menu-area {
     display: flex;
     align-items: center;
-    list-style-type: none;
     padding: 0;
-    /* background-color: red; */
 }
 
-.navbar-menu-area li{
+.navbar .navbar-holder .navbar-menu-area li {
     padding-right: 18px;
 }
 
-.navbar-menu-area li a{
+.navbar .navbar-holder .navbar-menu-area li a {
     color: white;
     font-weight: bold;
     opacity: 80%;
-    text-decoration: none;
 }
 
-.navbar-menu-area li a:hover{
+.navbar .navbar-holder .navbar-menu-area li a:hover {
     opacity: 100%;
 }
 
-.navbar-icon-size{
+.navbar .navbar-icon-size {
     width: 25px;
     height: 25px;
 }
 
-.navbar-account-area{
+.navbar .navbar-holder .navbar-account-area {
     display: flex;
     height: 66px;
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    list-style-type: none;
 }
 
-.navbar-account-area li{
+.navbar .navbar-holder .navbar-account-area li {
     padding-left: 18px;
 }
 
-.navbar-sign-button{
+.navbar .navbar-holder .navbar-account-area .navbar-sign-button {
     color: white;
     font-size: 14px;
     font-weight: bold;
-    text-decoration: none;
     border: 1px solid white;
     border-radius: 5px;
     padding: 10px 12px;
 }
 
-.navbar-sign-button:hover{
+.navbar .navbar-holder .navbar-account-area .navbar-sign-button:hover {
     color:blue;
     background-color: white;
 }
 
-.navbar-icon-padlock{
+.navbar .navbar-holder .navbar-account-area .navbar-icon-padlock {
     opacity: 80%;
 }
 
-.navbar-icon-padlock:hover{
+.navbar .navbar-holder .navbar-account-area .navbar-icon-padlock:hover{
     opacity: 100%;
 }
