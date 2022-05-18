@@ -1,4 +1,6 @@
 .main-banner {
+    display: flex;
+    flex-direction: column;
     padding-top: 66px;
     background-image: linear-gradient(90deg, rgba(48, 56, 85,0.8) 100%, rgba(0,212,255,1) 100%), url("../../images/header-background.jpg");
     background-repeat: no-repeat;
@@ -8,6 +10,11 @@
     color:whitesmoke;
 }
 
+.main-banner .main-banner-content {
+    width: 100%;
+}
+
+.main-banner .main-banner-content,
 .main-banner .container,
 .main-banner .main-banner-content-area {
     height: 100%;
@@ -49,6 +56,7 @@
 }
 
 .main-banner .mid-banner {
+    position: relative;
     height: 130px;
     border-bottom: 2px solid #E9EDF2;
     background: white;
