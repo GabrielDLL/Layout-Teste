@@ -57,6 +57,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25px 20px;
+    box-shadow: 0 8px 8px -2px rgb(39 44 51 / 10%), 0 3px 4px 0 rgb(39 44 51 / 4%), 0 1px 8px 0 rgb(39 44 51 / 2%);
 }
 
 .main-blog .blog-content .blog-main-category .category-content .inner-category .top-category {
@@ -92,6 +93,101 @@
 .main-blog .blog-content .blog-main-category .category-content .inner-category .bottom-category p {
     font-size: 18px;
     font-weight: 600;
+}
+
+.main-blog .blog-content .main-blog-bottom {
+    padding: 25px 0;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content {
+    background: #fff;
+    border: 1px solid #dfe2e6;
+    box-shadow: 0 3px 3px -2px rgb(39 44 51 / 10%), 0 3px 4px 0 rgb(39 44 51 / 4%), 0 1px 8px 0 rgb(39 44 51 / 2%);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .blog-course-info {
+    display: flex;
+    align-items: center;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .blog-course-info a {
+    border-radius: 5px;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .blog-course-info img {
+    width: 65px;
+    height: 65px;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .blog-course-info .blog-course-info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 12px;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .blog-course-info .blog-course-info-content h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-main);
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .blog-course-info .blog-course-info-content p {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: var(--font-main);
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .blog-course-folder {
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .blog-course-folder i {
+    color: #b5b6b8;
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .blog-course-folder p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .date {
+    font-size: 18px;
+    margin-left: 60px;
+    font-weight: 100;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .people {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .people img {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 35px;
+    height: 35px;
+    margin-left: -8px;
+}
+
+.main-blog .blog-content .main-blog-bottom .blog-bottom-content .people span {
+    margin-left: 8px;
 }
 
 .bci-one {
