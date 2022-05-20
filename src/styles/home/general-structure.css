@@ -1,0 +1,51 @@
+/* Refatorar código para classes genéricas */
+
+.main-blog, .main-paths {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #F5F7FA;
+    border-bottom: 2px solid #E9EDF2;
+}
+
+.main-blog .blog-main-content,
+.main-paths .paths-main-content {
+    width: 100%;
+}
+
+.main-blog .blog-content,
+.main-paths .paths-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-paths .paths-content .main-title,
+.main-blog .blog-content .main-title {
+    padding: 25px 0;
+}
+
+.main-paths .paths-content .main-title header,
+.main-blog .blog-content .main-title header {
+    display: flex;
+    align-items: center;
+}
+
+.main-paths .paths-content .main-title h1,
+.main-blog .blog-content .main-title h1 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #303956;
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 0;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.main-paths .paths-content .main-title .title-section-line,
+.main-blog .blog-content .main-title .title-section-line {
+    flex: 1;
+    height: 1px;
+    border-radius: 15px;
+    background: #d8dce0;
+}
