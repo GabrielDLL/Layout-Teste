@@ -48,27 +48,6 @@
     opacity: 30%;
 }
 
-.main-design .design-course-info-area .design-stars-container {
-    display: flex;
-    align-items: center;
-    margin-top: 8px;
-}
-
-.main-design .design-course-info-area .design-stars-container i {
-    margin-right: 5px;
-    color: #f9c32c;
-}
-
-.main-design .design-course-info-area .design-stars-container .last-star {
-    color: #d5d8db;
-}
-
-.main-design .design-course-info-area .design-stars-container p {
-    margin-left: 8px;
-    font-size: 13px;
-    font-weight: 100;
-}
-
 .main-design .design-course-video-info {
     display: flex;
     align-items: center;

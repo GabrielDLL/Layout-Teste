@@ -1,6 +1,6 @@
 /* Refatorar código para classes genéricas */
 
-.main-blog, .main-paths, .main-design {
+.main-blog, .main-paths, .main-design, .main-feedback {
     display: flex;
     justify-content: center;
     padding: 50px 0;
@@ -54,6 +54,28 @@
     height: 1px;
     border-radius: 15px;
     background: #d8dce0;
+}
+
+
+.design-stars-container {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.design-stars-container i {
+    margin-right: 5px;
+    color: #f9c32c;
+}
+
+.design-stars-container .last-star {
+    color: #d5d8db;
+}
+
+.design-stars-container p {
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 100;
 }
 
 
