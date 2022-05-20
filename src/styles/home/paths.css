@@ -75,23 +75,3 @@
     left: 50%;
     transform: translateX(-50%);
 }
-
-
-.cii-react{
-    background-color: #218DDF;
-}
-.cii-devops{
-    background-color: #C4CAFF;
-}
-.cii-redis{
-    background-color: #8D3F73;
-}
-.cii-mailchimp{
-    background-color: #BEB4D3;
-}
-.cii-swift{
-    background-color: #BA597D;
-}
-.cii-wordpress{
-    background-color: #1F7BD2;
-}

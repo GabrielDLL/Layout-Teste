@@ -1,6 +1,6 @@
 /* Refatorar código para classes genéricas */
 
-.main-blog, .main-paths {
+.main-blog, .main-paths, .main-design {
     display: flex;
     justify-content: center;
     padding: 50px 0;
@@ -8,28 +8,33 @@
     border-bottom: 2px solid #E9EDF2;
 }
 
-.main-blog .blog-main-content,
-.main-paths .paths-main-content {
+.main-design .design-main-content,
+.main-paths .paths-main-content,
+.main-blog .blog-main-content {
     width: 100%;
 }
 
-.main-blog .blog-content,
-.main-paths .paths-content {
+.main-design .design-content,
+.main-paths .paths-content,
+.main-blog .blog-content {
     display: flex;
     flex-direction: column;
 }
 
+.main-design .design-content .main-title,
 .main-paths .paths-content .main-title,
 .main-blog .blog-content .main-title {
     padding: 25px 0;
 }
 
+.main-design .design-content .main-title header,
 .main-paths .paths-content .main-title header,
 .main-blog .blog-content .main-title header {
     display: flex;
     align-items: center;
 }
 
+.main-design .design-content .main-title h1,
 .main-paths .paths-content .main-title h1,
 .main-blog .blog-content .main-title h1 {
     font-size: 17px;
@@ -42,10 +47,47 @@
     margin-right: 10px;
 }
 
+.main-design .design-content .main-title .title-section-line,
 .main-paths .paths-content .main-title .title-section-line,
 .main-blog .blog-content .main-title .title-section-line {
     flex: 1;
     height: 1px;
     border-radius: 15px;
     background: #d8dce0;
+}
+
+
+/* COLORS */
+
+.cii-react{
+    background-color: #218DDF;
+}
+.cii-devops{
+    background-color: #C4CAFF;
+}
+.cii-redis{
+    background-color: #8D3F73;
+}
+.cii-mailchimp{
+    background-color: #BEB4D3;
+}
+.cii-swift{
+    background-color: #BA597D;
+}
+.cii-wordpress{
+    background-color: #1F7BD2;
+}
+
+
+.dci-sketch {
+    background-color: #342C8E;
+}
+.dci-flinto {
+    background-color: #C4759A;
+}
+.dci-photoshop {
+    background-color: #1E94EC;
+}
+.dci-figma {
+    background-color: #25ABAE;
 }

@@ -1,0 +1,93 @@
+.main-design .design-courses-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.main-design .design-course-item {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #DFE2E6;
+    box-shadow: 0 3px 3px -2px rgb(39 44 51 / 10%), 0 3px 4px 0 rgb(39 44 51 / 4%), 0 1px 8px 0 rgb(39 44 51 / 2%);
+    overflow: hidden;
+}
+
+.main-design .design-course-image {
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-design .design-course-info-area-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #DFE2E6;
+}
+
+.main-design .design-course-info-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-design .design-course-info-area h2 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.main-design .design-course-info-area p {
+    margin: 0;
+    margin-top: 4px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.main-design .design-heart-icon {
+    width: 23px;
+    height: 23px;
+    opacity: 30%;
+}
+
+.main-design .design-course-info-area .design-stars-container {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.main-design .design-course-info-area .design-stars-container i {
+    margin-right: 5px;
+    color: #f9c32c;
+}
+
+.main-design .design-course-info-area .design-stars-container .last-star {
+    color: #d5d8db;
+}
+
+.main-design .design-course-info-area .design-stars-container p {
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.main-design .design-course-video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    padding: 14px 16px;
+    font-size: 13px;
+}
+
+.main-design .design-course-video-info p {
+    padding-left: 5px;
+}
+
+.main-design .design-course-video-info .design-video-icon {
+    display: flex;
+    align-items: center;
+}
+
+.main-design .design-course-video-info .video-info-icon {
+    width: 12px;
+    height: 12px;
+}
